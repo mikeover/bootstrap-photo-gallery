@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>PhotoShak</title>
+    <title>PhotoShak Photo Gallery</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,35 +40,87 @@
 
     <section>
       <div class="container">
-	<div class="row">
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title One</div>
-	  </div> <!-- col-md-4 -->
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title Two</div>
-	  </div> <!-- col-md-4 -->
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title Three</div>
-	  </div> <!-- col-md-4 -->
-	</div> <!-- row -->
 
-	<div class="row">
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title Four</div>
-	  </div> <!-- col-md-4 -->
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title Five</div>
-	  </div> <!-- col-md-4 -->
-	  <div class="col-md-4">
-	    <a href="#"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
-	    <div class="title">Sample Title Six</div>
-	  </div> <!-- col-md-4 -->
-	</div> <!-- row -->
+	<div role="tabpanel">
+	  
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs" role="tablist">
+	    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All Photos</a></li>
+	    <li role="presentation"><a href="#category-one" aria-controls="category-one" role="tab" data-toggle="tab">Category One</a></li>
+	    <li role="presentation"><a href="#category-two" aria-controls="category-two" role="tab" data-toggle="tab">Category Two</a></li>
+	  </ul>
+	  <br/>
+	  
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+	    <div role="tabpanel" class="tab-pane active" id="all">
+	      <div class="row">
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title One</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Two</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Three</div>
+		</div> <!-- col-md-4 -->
+	      </div> <!-- row -->
+	      <div class="row">
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Four</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Five</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Six</div>
+		</div> <!-- col-md-4 -->
+	      </div> <!-- row -->
+	    </div> <!-- all tab -->
+	    
+	    <div role="tabpanel" class="tab-pane" id="category-one">
+	      <div class="row">
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title One</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Two</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Three</div>
+		</div> <!-- col-md-4 -->
+	      </div> <!-- row -->
+	    </div> <!-- category-one tab -->
+
+	    <div role="tabpanel" class="tab-pane" id="category-two">
+	      <div class="row">
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Four</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Five</div>
+		</div> <!-- col-md-4 -->
+		<div class="col-md-4">
+		  <a href="#"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
+		  <div class="title">Sample Title Six</div>
+		</div> <!-- col-md-4 -->
+	      </div> <!-- row -->
+	    </div> <!-- category-two tab -->
+	  </div>
+	  
+	</div>
+	
       </div> <!-- container -->
     </section>
 
