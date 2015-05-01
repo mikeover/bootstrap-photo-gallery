@@ -109,29 +109,33 @@
 	    <div role="tabpanel" class="tab-pane active" id="all">
 	      <div class="row">
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
+		  <!-- lightbox plugin requires setting href to the image itself -->
+		  <!-- lightbox plugin requires setting data-lightbox attribute on link -->
+		  <!-- NOTE: Have the images have the same data-lightbox attribute to have arrows to navigate through the images, otherwise it will just be the one image -->
+		  <!-- lightbox plugin allows title via data-title attribute on link -->
+		  <a href="img/sample1.jpg" data-lightbox="gallery" data-title="Sample Image One"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title One</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample2.jpg" data-lightbox="gallery" data-title="Sample Image Two"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Two</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample3.jpg" data-lightbox="gallery" data-title="Sample Image Three"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Three</div>
 		</div> <!-- col-md-4 -->
 	      </div> <!-- row -->
 	      <div class="row">
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample4.jpg" data-lightbox="gallery" data-title="Sample Image Four"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Four</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample5.jpg" data-lightbox="gallery" data-title="Sample Image Five"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Five</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample6.jpg" data-lightbox="gallery" data-title="Sample Image Six"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Six</div>
 		</div> <!-- col-md-4 -->
 	      </div> <!-- row -->
@@ -140,15 +144,19 @@
 	    <div role="tabpanel" class="tab-pane" id="category-one">
 	      <div class="row">
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
+		  <!-- lightbox plugin requires setting href to the image itself -->
+		  <!-- lightbox plugin requires setting data-lightbox attribute on link -->
+		  <!-- NOTE: Have the images have the same data-lightbox attribute to have arrows to navigate through the images, otherwise it will just be the one image -->
+		  <!-- lightbox plugin allows title via data-title attribute on link -->
+		  <a href="img/sample1.jpg" data-lightbox="gallery-category-one" data-title="Sample Image One"><img src="img/sample1.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title One</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample2.jpg" data-lightbox="gallery-category-one" data-title="Sample Image Two"><img src="img/sample2.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Two</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample3.jpg" data-lightbox="gallery-category-one" data-title="Sample Image Three"><img src="img/sample3.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Three</div>
 		</div> <!-- col-md-4 -->
 	      </div> <!-- row -->
@@ -157,15 +165,15 @@
 	    <div role="tabpanel" class="tab-pane" id="category-two">
 	      <div class="row">
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample4.jpg" data-lightbox="gallery-category-two" data-title="Sample Image Four"><img src="img/sample4.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Four</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample5.jpg" data-lightbox="gallery-category-two" data-title="Sample Image Five"><img src="img/sample5.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Five</div>
 		</div> <!-- col-md-4 -->
 		<div class="col-md-4">
-		  <a href="#"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
+		  <a href="img/sample6.jpg" data-lightbox="gallery-category-two" data-title="Sample Image Six"><img src="img/sample6.jpg" class="img-thumbnail"/></a>
 		  <div class="title">Sample Title Six</div>
 		</div> <!-- col-md-4 -->
 	      </div> <!-- row -->
